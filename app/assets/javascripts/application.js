@@ -17,11 +17,41 @@
 //= require_tree .
 
 $(document).on('turbolinks:load', function(){
+    
   $("table[role='datatable']").each(function(){
     $(this).DataTable({
       processing: true,
       serverSide: true,
-      ajax: $(this).data('url')
-    });
-  });  
-})
+      ajax: $(this).data('url'),
+      columns: [
+        { 
+          data: function(row, type, set, meta) {
+             console.log(JSON.stringify(row))
+             return row[0]
+          }
+        },    
+        { 
+          data: function(row, type, set, meta) {
+             return row[1]
+          }
+        },
+        { 
+          data: function(row, type, set, meta) {
+             return row[2]
+          }
+        },
+        { 
+          data: function(row, type, set, meta) {
+             return row[3]
+          }
+        },
+        { 
+          data: function(row, type, set, meta) {
+             return 'hey' + row[4]
+          }
+        }
+    ]
+    
+  });
+  });    
+});
