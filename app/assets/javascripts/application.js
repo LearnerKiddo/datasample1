@@ -26,28 +26,33 @@ $(document).on('turbolinks:load', function(){
       columns: [
         { 
           data: function(row, type, set, meta) {
-             console.log(JSON.stringify(row))
-             return row[0]
+             //console.log(JSON.stringify(row))
+             //return row[0]
+             return row.first_name;
           }
         },    
         { 
           data: function(row, type, set, meta) {
-             return row[1]
+             //return row[1]
+             return row.last_name;
           }
         },
         { 
           data: function(row, type, set, meta) {
-             return row[2]
+             //return row[2]
+             return row.email;
           }
         },
         { 
           data: function(row, type, set, meta) {
-             return row[3]
+             //return row[3]
+             return row.phone_number;
           }
         },
         { 
           data: function(row, type, set, meta) {
-             return 'hey' + row[4]
+             //return 'hey' + row[4]
+             return row.links;
           }
         }
     ]

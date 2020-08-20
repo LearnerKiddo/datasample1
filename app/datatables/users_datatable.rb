@@ -11,18 +11,22 @@ class UsersDatatable < ApplicationDatatable
 
   def data
     users.map do |user|
-      [].tap do |column|
-        column << user.first_name
-        column << user.last_name
-        column << user.email
-        column << user.phone_number
+      #[].tap do |column|
+#         column << user.first_name
+#         column << user.last_name
+#         column << user.email
+#         column << user.phone_number
 
-        links = []
-        links << link_to('Show', user)
-        links << link_to('Edit', edit_user_path(user))
-        links << link_to('Destroy', user, method: :delete, data: { confirm: 'Are you sure?' })
-        column << links.join(' | ')
-      end
+         links = []
+         links << link_to('Show', user)
+         links << link_to('Edit', edit_user_path(user))
+         links << link_to('Destroy', user, method: :delete, data: { confirm: 'Are you sure?' })
+#         column << links.join(' | ')
+          
+       { first_name: user.first_name, last_name: user.last_name,
+                    email: user.email, phone_number: user.phone_number,
+                    links: links.join(' | ') }
+      #end
     end
   end
 
