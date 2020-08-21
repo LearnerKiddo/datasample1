@@ -6,7 +6,7 @@ class UsersController < ApplicationController
   def index
     @users = User.where(id: [1..50])
     data = UsersDatatable.new(@users, view_context)
-    #byebug
+    byebug
     respond_to do |format|
       format.html
       format.json { render json: data }

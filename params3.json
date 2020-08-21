@@ -1,0 +1,71 @@
+{
+  "draw": "2",
+  "columns": {
+    "0": {
+      "data": "function",
+      "name": "",
+      "searchable": "true",
+      "orderable": "true",
+      "search": {
+        "value": "",
+        "regex": "false"
+      }
+    },
+    "1": {
+      "data": "function",
+      "name": "",
+      "searchable": "true",
+      "orderable": "true",
+      "search": {
+        "value": "",
+        "regex": "false"
+      }
+    },
+    "2": {
+      "data": "function",
+      "name": "",
+      "searchable": "true",
+      "orderable": "true",
+      "search": {
+        "value": "",
+        "regex": "false"
+      }
+    },
+    "3": {
+      "data": "function",
+      "name": "",
+      "searchable": "true",
+      "orderable": "true",
+      "search": {
+        "value": "",
+        "regex": "false"
+      }
+    },
+    "4": {
+      "data": "function",
+      "name": "",
+      "searchable": "true",
+      "orderable": "true",
+      "search": {
+        "value": "",
+        "regex": "false"
+      }
+    }
+  },
+  "order": {
+    "0": {
+      "column": "0",
+      "dir": "asc"
+    }
+  },
+  "start": "20",
+  "length": "10",
+  "search": {
+    "value": "",
+    "regex": "false"
+  },
+  "_": "1597972448206",
+  "controller": "users",
+  "action": "index",
+  "format": "json"
+}

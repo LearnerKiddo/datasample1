@@ -8,6 +8,7 @@ class ApplicationDatatable
 
   def as_json(options = {})
     {
+      draw: params[:draw].to_i,
       recordsTotal: count,
       recordsFiltered: total_entries,
       data: data

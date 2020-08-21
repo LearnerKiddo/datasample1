@@ -1,0 +1,76 @@
+{
+  "recordsTotal": 50,
+  "recordsFiltered": 50,
+  "data": [
+    {
+      "first_name": "Ramona",
+      "last_name": "Rippin",
+      "email": "serenity@raukutch.biz",
+      "phone_number": "(969) 124-0996",
+      "links": "<a href=\"/users/1\">Show</a> | <a href=\"/users/1/edit\">Edit</a> | <a data-confirm=\"Are you sure?\" rel=\"nofollow\" data-method=\"delete\" href=\"/users/1\">Destroy</a>"
+    },
+    {
+      "first_name": "Alicia",
+      "last_name": "Corwin",
+      "email": "frieda@ankundingboyle.biz",
+      "phone_number": "453.401.4934 x661",
+      "links": "<a href=\"/users/2\">Show</a> | <a href=\"/users/2/edit\">Edit</a> | <a data-confirm=\"Are you sure?\" rel=\"nofollow\" data-method=\"delete\" href=\"/users/2\">Destroy</a>"
+    },
+    {
+      "first_name": "Palma",
+      "last_name": "Olson",
+      "email": "koby.wilderman@nienow.biz",
+      "phone_number": "949.265.5164",
+      "links": "<a href=\"/users/3\">Show</a> | <a href=\"/users/3/edit\">Edit</a> | <a data-confirm=\"Are you sure?\" rel=\"nofollow\" data-method=\"delete\" href=\"/users/3\">Destroy</a>"
+    },
+    {
+      "first_name": "Immanuel",
+      "last_name": "Schultz",
+      "email": "verda.dietrich@rempel.org",
+      "phone_number": "1-627-460-0037 x132",
+      "links": "<a href=\"/users/4\">Show</a> | <a href=\"/users/4/edit\">Edit</a> | <a data-confirm=\"Are you sure?\" rel=\"nofollow\" data-method=\"delete\" href=\"/users/4\">Destroy</a>"
+    },
+    {
+      "first_name": "Lauriane",
+      "last_name": "Fisher",
+      "email": "kiel@gottliebveum.info",
+      "phone_number": "1-200-513-2729 x43671",
+      "links": "<a href=\"/users/5\">Show</a> | <a href=\"/users/5/edit\">Edit</a> | <a data-confirm=\"Are you sure?\" rel=\"nofollow\" data-method=\"delete\" href=\"/users/5\">Destroy</a>"
+    },
+    {
+      "first_name": "Tom",
+      "last_name": "Pagac",
+      "email": "kellie.boyer@sengerrohan.io",
+      "phone_number": "(942) 031-5677",
+      "links": "<a href=\"/users/6\">Show</a> | <a href=\"/users/6/edit\">Edit</a> | <a data-confirm=\"Are you sure?\" rel=\"nofollow\" data-method=\"delete\" href=\"/users/6\">Destroy</a>"
+    },
+    {
+      "first_name": "Gianni",
+      "last_name": "Wiza",
+      "email": "preston_quigley@grady.biz",
+      "phone_number": "(995) 369-8049 x92134",
+      "links": "<a href=\"/users/7\">Show</a> | <a href=\"/users/7/edit\">Edit</a> | <a data-confirm=\"Are you sure?\" rel=\"nofollow\" data-method=\"delete\" href=\"/users/7\">Destroy</a>"
+    },
+    {
+      "first_name": "Gail",
+      "last_name": "Jerde",
+      "email": "mya.doyle@heaneyswift.name",
+      "phone_number": "414.435.2399 x6219",
+      "links": "<a href=\"/users/8\">Show</a> | <a href=\"/users/8/edit\">Edit</a> | <a data-confirm=\"Are you sure?\" rel=\"nofollow\" data-method=\"delete\" href=\"/users/8\">Destroy</a>"
+    },
+    {
+      "first_name": "Dessie",
+      "last_name": "Crona",
+      "email": "lorenzo.schimmel@turcotte.io",
+      "phone_number": "(577) 445-8178",
+      "links": "<a href=\"/users/9\">Show</a> | <a href=\"/users/9/edit\">Edit</a> | <a data-confirm=\"Are you sure?\" rel=\"nofollow\" data-method=\"delete\" href=\"/users/9\">Destroy</a>"
+    },
+    {
+      "first_name": "Doyle",
+      "last_name": "Nader",
+      "email": "trystan.kling@mayertwitting.io",
+      "phone_number": "(481) 243-4536 x114",
+      "links": "<a href=\"/users/10\">Show</a> | <a href=\"/users/10/edit\">Edit</a> | <a data-confirm=\"Are you sure?\" rel=\"nofollow\" data-method=\"delete\" href=\"/users/10\">Destroy</a>"
+    }
+  ]
+}
